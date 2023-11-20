@@ -1,0 +1,66 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat'
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.menu
+{
+    text-align: center;
+}
+
+.menu h1
+{
+    font-size: 50px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,1);
+    border-radius: 20px;
+}
+
+#container input, #container select{
+    font-size: 22px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number]{ 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+button{
+    font-size: 22px;
+    padding: 5px 0;
+}
+
+#resultado{
+    margin:10px 0px;
+}
+
+#resultado-value{
+    margin: 10px 20px ;
+}
